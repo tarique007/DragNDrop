@@ -1,0 +1,28 @@
+{
+    "images": [
+        {
+            "source": "images/tree2.png",
+            "id": "tree",
+            "class": "drags",
+            "arialabel": "trees"
+        },
+        {
+            "source": "images/birds.png",
+            "id": "bird",
+            "class": "drags",
+            "arialabel": "birds"
+        },
+        {
+            "source": "images/hut.png",
+            "id": "hut",
+            "class": "drags",
+            "arialabel": "hut"
+        },
+        {
+            "source": "images/kids1.png",
+            "id": "kid",
+            "class": "drags",
+            "arialabel": "kids"
+        }
+]
+}

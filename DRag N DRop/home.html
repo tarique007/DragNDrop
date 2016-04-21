@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/play.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/touchpunch.js"></script>
+</head>
+
+<body style="position:fixed;overflow:hidden">
+    <div style="position:absolute">
+        <button type="button" id="hint" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Hint</button>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+            </div>
+
+            <button type="button" class="cls btn btn-default" data-dismiss="modal" style="position:relative;left:1085px">Close</button>
+
+        </div>
+    </div>
+    </div>
+    <div role="application">
+        <div id="hut" aria-label="droppable area" tabindex=0 class="drops" style="position:absolute;height: 270px;width: 500px;left: 2%;top: 300px;"></div>
+        <div id="tree" tabindex=0 aria-label="droppable area" class="drops" style="position:absolute;height: 270px;width: 332px;left: 70%;top: 300px;"></div>
+        <div id="bird" tabindex=0 aria-label="droppable area" class="drops" style="position:absolute;height: 270px;width: 400px;left: 25%;top: -4px;"></div>
+
+        <div id="kid" tabindex=0 aria-label="droppable area" class="drops" style="position:absolute;height: 270px;width: 400px;left: 34%;top: 400px;"></div>
+    </div>
+    <button type="button" id="trigger" class="btn btn-info btn-lg" style="
+ ;
+">show items</button>
+    <button type="button" id="retry" class="btn btn-info btn-lg" style="
+   ">TRY AGAIN</button>
+    <button type="button" id="validate" class="btn btn-info btn-lg" style="
+   ">Validate</button>
+    <img src=images/bg1.jpg id="backImg">
+    <div id='slider' role="application">
+    </div>
+
+    <label>HINT:</label>
+
+</body>
+
+</html>
